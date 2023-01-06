@@ -15,6 +15,7 @@ storyfile "C:\Users\Lucian\Documents\Inform\Projects\theUnderstudy.inform\Build\
 ifiction "C:\Users\Lucian\Documents\Inform\Projects\theUnderstudy.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 3 "C:\Users\Lucian\Documents\Inform\Projects\theUnderstudy.materials\Figures\stable_diffusion_cover_pic.jpg"
 
 ! Placeholder variables
 

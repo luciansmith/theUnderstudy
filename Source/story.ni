@@ -12,6 +12,8 @@ The story headline is "An Interactive Winging It"
 
 After printing the banner text, say "Remember:  you can ENTER CHARACTER or BREAK CHARACTER at any time."
 
+Figure of intro is the file "stable_diffusion_cover_pic.jpg”.
+
 Part 0 - The code's backstage
 
 Use American dialect, the serial comma, and full-length room descriptions.

@@ -4,6 +4,8 @@
     <dict>
         <key>Graphics</key>
         <dict>
+            <key>3</key>
+            <string>Figures\stable_diffusion_cover_pic.jpg</string>
         </dict>
     </dict>
 </plist>
