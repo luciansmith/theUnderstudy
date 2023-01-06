@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-24"/>
+  <activeNode nodeId="node-403"/>
   <item nodeId="node-1">
-    <command xml:space="preserve">Understudy name_of_play</command>
-    <result xml:space="preserve">The Understudy: name_of_play&#x000A;An Interactive Winging It by someone, from a seed by Lucian Smith&#x000A;Release 1 / Serial number 230104 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;Type "about" for more information.&#x000A;&#x000A;stage1&#x000A;You can see a box (empty) here.&#x000A;&#x000A;It's a stage.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">theUnderstudy</command>
+    <result xml:space="preserve">Whoops.&#x000A;&#x000A;You agreed to be an understudy for FILL_IN because they have, literally, never been sick a day in their life.  And, you suppose, they still haven't.  And normally, getting trampled by a rogue capybara still wouldn't dissuade them from performing in FILL_IN as FILL_IN, literally their favorite part in FILL_IN's entire oeuvre.  But FILL_IN the director apparently didn't think pushing a comatose patient on stage would do much for the audience's enjoyment, so here you are.&#x000A;&#x000A;And normally, you'd be fine with this; you've understudied a lot.  But FILL_IN?  There was no way they weren't going to be here.  So you... never actually learned your part.  Or read the play, really.&#x000A;&#x000A;But!  You have excellent improv skills, a keen sense of story and theater, a (generally) excellent cast to work with, and an uncanny ability to fully inhabit the characters you portray.  You got this.&#x000A;&#x000A;The Understudy: name_of_play&#x000A;An Interactive Winging It by someone, from a seed by Lucian Smith&#x000A;Release 1 / Serial number 230105 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;Remember:  you can ENTER CHARACTER or BREAK CHARACTER at any time.&#x000A;&#x000A;stage1&#x000A;You can see a box (empty) here.&#x000A;&#x000A;It's a stage.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-7"/>
       <child nodeId="node-12"/>
+      <child nodeId="node-233"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -208,6 +209,93 @@
   <item nodeId="node-24">
     <command xml:space="preserve">get out of box</command>
     <result xml:space="preserve">I only understood you as far as wanting to get outside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">exit character</command>
+    <result xml:space="preserve">You're already out of character.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">enter character</command>
+    <result xml:space="preserve">You enter the character of FILL_THIS_IN and become them more fully.&#x000A;&#x000A;stage1&#x000A;You can see a box (empty) here.&#x000A;&#x000A;A lovely pasture.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">enter box</command>
+    <result xml:space="preserve">You get into the box.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">exit box</command>
+    <result xml:space="preserve">You get out of the box.&#x000A;&#x000A;stage1&#x000A;You can see a box (empty) here.&#x000A;&#x000A;A lovely pasture.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">exit character</command>
+    <result xml:space="preserve">With a long blink, you extricate yourself mentally from FILL_THIS_IN so you can look at your actual surroundings a bit better.&#x000A;&#x000A;stage1&#x000A;You can see a box (empty) here.&#x000A;&#x000A;It's a stage.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">x character</command>
+    <result xml:space="preserve">The character you're portraying is FILL_THIS_IN.  To really embody that character for the audience, type ENTER CHARACTER.  To return to your acting self, you can BREAK CHARACTER or EXIT CHARACTER.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-401"/>
+    </children>
+  </item>
+  <item nodeId="node-401">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">The character you're portraying is FILL_THIS_IN.  To really embody that character for the audience, type ENTER CHARACTER.  To return to your acting self, you can BREAK CHARACTER or EXIT CHARACTER.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-402"/>
+    </children>
+  </item>
+  <item nodeId="node-402">
+    <command xml:space="preserve">enter character</command>
+    <result xml:space="preserve">You enter the character of FILL_THIS_IN and become them more fully.&#x000A;&#x000A;stage1&#x000A;You can see a box (empty) here.&#x000A;&#x000A;A lovely pasture.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-403"/>
+    </children>
+  </item>
+  <item nodeId="node-403">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">You are FILL_THIS_IN... though at some level, you still remember that you're just portraying them.  To return to your acting self, you can BREAK CHARACTER or EXIT CHARACTER.  To become FILL_THIS_IN again, you can ENTER CHARACTER.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
